@@ -1,0 +1,49 @@
+
+/* Minified version of previously styled CSS for RAFAELRSA GAMING */
+body {
+  font-family: 'Exo 2', sans-serif;
+  background: linear-gradient(135deg, #070a10, #0a0e17);
+  color: #f0f5ff;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+header, footer {
+  background: rgba(10,14,23,0.85);
+  padding: 1rem 5%;
+  backdrop-filter: blur(10px);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 2px solid #ff0055;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-text {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 900;
+  font-size: 1.8rem;
+  background: linear-gradient(45deg, #ff0055, #00aaff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.nav-links a {
+  color: #f0f5ff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+.hero, .components, .gallery, .contact {
+  padding: 4rem 5%;
+  text-align: center;
+}
+footer {
+  padding: 3rem 5%;
+  border-top: 2px solid #ff0055;
+  text-align: center;
+}
